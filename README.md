@@ -1,2 +1,2 @@
 # ProjectQuera
-Developed a project where student and professor could interact with each other. 
+Developed a project named project quera. 
