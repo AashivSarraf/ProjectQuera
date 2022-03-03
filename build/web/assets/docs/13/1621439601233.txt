@@ -1,0 +1,326 @@
+FIRST.c
+
+i/p---->process----->o/p
+
+fuctions
+      --->in build function --- predefined in c library 
+                            find it in header file 
+                            extension of header file is .h
+      ---->user define function
+ 
+---->declaration
+---->defination
+---->calling
+
+many input and putput functions
+
+printf() ---->output function
+
+hello youtube
+printf("hello youtube")
+
+scanf()---->input function
+
+declaration and defination of printf() and scanf() function is inside
+the header file
+
+
+input and output ---->add header file ---->calling
+
+#include<stdio.h>                    #---->calling of preprocessor directory
+
+FIRST.c
+    ----->include--->from preprocessor directory it adds header file in FIRST.c program.
+
+stdio.h
+standard input output 
+.h--->extension of header file
+
+#include<conio.h>
+           --->console screen
+                input output 
+                extension of header file
+void main()
+      |----->entry point
+             starting end
+printf()---->output function
+scanf()---->input function
+
+data
+    ---->constant
+            ---->if data value is constant w.r.t time
+    ---->variable
+            ----->change w.r.t time 
+       
+
+no.of days in a week-->7 --->constant
+no. of months in a year--->12 --->constant
+
+
+age=19
+   =20
+   =21
+   =22
+
+
+binary language
+1 and 0
+
+computer is a digital elctronic device
+and gate or gate ... ---->1 and 0
+all components --->gates
+
+
+   64 bit compiler
+                                          Data types
+                                              |
+  --------------------------------------------------------------------------------------------
+      |                                                                            |
+   primitive                                                                 non primitive
+      or                                                                           or
+   primary                                                                    secondary
+     or                                                                           or
+  in build type                                                               user define
+
+1)integer(number)                                                        arrays,pointers,functions
+                                                                          strings structute.....
+       ----->int1,2,3,...4 byte
+       ------>long int(8 byte)
+2)real(for franctional)6.2 8.4...
+       ----->float(4 byte)
+       ----->double(8 byte)
+3)character
+       ----->char(1 byte)
+          alphabet
+1 byte = 8 bit
+
+imp...
+1)\t for generating space between to statements
+2)\n for printing statement in another line
+spaces for generating space between two statements
+
+imp.
+1)\t--->generating space between the two statements
+2)\n---->for printing the statement in another line
+3)spaces ---->generating s[pace between two statements.
+
+
+                                  university name
+
+Roll no.:                                                           course:
+name:                                                               Branch:
+F name:                                                             sem:
+M name:                                                             year:
+
+32 keywords in C
+int 
+float
+char....
+%d & %u
+
+MSB-->most significant bit
+LSB--->least significant bit 
+
+for int-->%d
+
+-2147483648 to +2147483647
+
+formula for finding range is:
+-[2^(n-1)] to +[2^(n-1) - 1]
+
+1.int:4 byte;
+1 byte = 8 bit
+4 byte=4*8=32 bit
+n=32.
+
+
+-[2^(32-1)] to +[2^(32-1)-1]
+-[2^31] to +[2^31 - 1]
+-2147483648 to +2147483647
+
+
+2.long int
+3.float
+4.double
+5.char
+
+operators:all such symbolic notations which apply on operands 
+  |
+  |---->unary operator
+  |---->binary operator
+  |---->tarnary operator
+
+1.unary->all such operators which are applied on one operands
+2.binary->all such operators which are applied on two operands
+3.tarnary->all such i=operators which are applied on three(3) operands
+
+
+operators:
+
+1.Assignment operator:
+
+= ---> equal operator is a binary operator
+ex.
+   a=8;//correct
+   a=b;//correct
+   7=c;//incorrect compile time error
+
+L.H.S=R.H.S
+always make L.H.S a variable but R.H.S can be both.
+
+2.Arithmatic operator:
+     |
+     |---> + addition
+     |---> - subtraction
+     |---> * multiplication
+     |---> / division
+     |---> % for finding remainder
+
+
+a=-a unary operator
+a-b  binay operator
+
+1.Area of rectangle    a=l*b
+2.Area of circle       a=3.14*r*r
+3.Area of square       a=s*s
+4.Find simple interest       SI=(p*r*t)/100
+5.convert f value into c     c=(5/9)*(f-32)
+
+
+swaping of two numbers/inter changing of two numbers:
+----------------------------------------------------------
+way1:using third variables
+
+input:       output:
+a=5          a=9
+b=9          b=5
+
+temp=a;
+a=b;
+b=temp;
+
+way2:using only two variables:
+
+a=9
+b=5
+
+a=a+b;        a=9+5
+               =14
+b=a-b;        b=14-5
+               =9
+a=a-b;        a=14-9
+               =5
+
+               a=5,b=9
+
+void main()
+{
+   st1;
+   st2;
+   st3;
+
+
+}
+
+control structure statement:
+        |
+        |---->if()
+        |---->if()- else
+        |---->if()-else if()
+        |---->loop
+               |---->while()
+                ---->do while()
+                ---->for
+
+          --->break
+          --->continue
+          --->goto
+          --->switch()
+
+syntax:
+-----------
+if(condition)
+{
+    st1;
+    st2;
+}
+st3;
+st4;
+
+relational operators:
+      |
+      -----> ==
+      -----> !=
+      -----> >
+      -----> >=
+      -----> <
+      -----> <=
+
+   true(correct)--->1
+   false(incorrect)--->0
+
+
+nesting
+----------------------------------
+   if(c1)
+   {
+
+         if(c2)
+         {
+             st1;
+         }     
+
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
